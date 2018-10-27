@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15129A1D20949C220021DACB /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 15129A1B20949C220021DACB /* vector.c */; };
+		157A9C302091121E007A39EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157A9C2F2091121E007A39EB /* AppDelegate.m */; };
+		157A9C322091121E007A39EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157A9C312091121E007A39EB /* main.m */; };
+		157A9C372091121E007A39EB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157A9C352091121E007A39EB /* MainMenu.xib */; };
+		15BB7EDA20912F7100DC8224 /* trajectory.c in Sources */ = {isa = PBXBuildFile; fileRef = 15BB7ED820912F7100DC8224 /* trajectory.c */; };
+		15C24160209DA490002E8426 /* libglpk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C2415F209DA490002E8426 /* libglpk.a */; };
+		15E257FF2093399200943316 /* intersection_algorithms.c in Sources */ = {isa = PBXBuildFile; fileRef = 15E257FD2093399100943316 /* intersection_algorithms.c */; };
+		15E770312091283F00D5B3C3 /* dubins.c in Sources */ = {isa = PBXBuildFile; fileRef = 15E7702A2091283F00D5B3C3 /* dubins.c */; };
+		15E770322091283F00D5B3C3 /* intersection.c in Sources */ = {isa = PBXBuildFile; fileRef = 15E7702C2091283F00D5B3C3 /* intersection.c */; };
+		15E770332091283F00D5B3C3 /* scheduler.c in Sources */ = {isa = PBXBuildFile; fileRef = 15E7702F2091283F00D5B3C3 /* scheduler.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15129A1B20949C220021DACB /* vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vector.c; path = ../../data/vector.c; sourceTree = "<group>"; };
+		15129A1C20949C220021DACB /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vector.h; path = ../../data/vector.h; sourceTree = "<group>"; };
+		157A9C292091121E007A39EB /* scheduler_tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scheduler_tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		157A9C2D2091121E007A39EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157A9C2E2091121E007A39EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		157A9C2F2091121E007A39EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		157A9C312091121E007A39EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		157A9C362091121E007A39EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		157A9C412091121E007A39EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157A9C422091121E007A39EB /* scheduler_testsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scheduler_testsTests.m; sourceTree = "<group>"; };
+		15BB7ED820912F7100DC8224 /* trajectory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trajectory.c; path = ../../scheduling/trajectory.c; sourceTree = "<group>"; };
+		15BB7ED920912F7100DC8224 /* trajectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trajectory.h; path = ../../scheduling/trajectory.h; sourceTree = "<group>"; };
+		15C2415F209DA490002E8426 /* libglpk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglpk.a; path = ../../../../../../../../../../../../usr/local/lib/libglpk.a; sourceTree = "<group>"; };
+		15E257FD2093399100943316 /* intersection_algorithms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = intersection_algorithms.c; path = ../../scheduling/intersection_algorithms.c; sourceTree = "<group>"; };
+		15E257FE2093399200943316 /* intersection_algorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = intersection_algorithms.h; path = ../../scheduling/intersection_algorithms.h; sourceTree = "<group>"; };
+		15E7702A2091283F00D5B3C3 /* dubins.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dubins.c; path = ../../scheduling/dubins.c; sourceTree = "<group>"; };
+		15E7702B2091283F00D5B3C3 /* dubins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dubins.h; path = ../../scheduling/dubins.h; sourceTree = "<group>"; };
+		15E7702C2091283F00D5B3C3 /* intersection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = intersection.c; path = ../../scheduling/intersection.c; sourceTree = "<group>"; };
+		15E7702D2091283F00D5B3C3 /* intersection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = intersection.h; path = ../../scheduling/intersection.h; sourceTree = "<group>"; };
+		15E7702E2091283F00D5B3C3 /* scheduler_tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scheduler_tools.h; path = ../../scheduling/scheduler_tools.h; sourceTree = "<group>"; };
+		15E7702F2091283F00D5B3C3 /* scheduler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scheduler.c; path = ../../scheduling/scheduler.c; sourceTree = "<group>"; };
+		15E770302091283F00D5B3C3 /* scheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scheduler.h; path = ../../scheduling/scheduler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		157A9C262091121E007A39EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C24160209DA490002E8426 /* libglpk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15129A1A20949C190021DACB /* data */ = {
+			isa = PBXGroup;
+			children = (
+				15129A1C20949C220021DACB /* vector.h */,
+				15129A1B20949C220021DACB /* vector.c */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		157A9C202091121E007A39EB = {
+			isa = PBXGroup;
+			children = (
+				15C2415F209DA490002E8426 /* libglpk.a */,
+				157A9C2B2091121E007A39EB /* scheduler_tests */,
+				157A9C2C2091121E007A39EB /* Supporting Files */,
+				157A9C3F2091121E007A39EB /* scheduler_testsTests */,
+				157A9C2A2091121E007A39EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		157A9C2A2091121E007A39EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				157A9C292091121E007A39EB /* scheduler_tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		157A9C2B2091121E007A39EB /* scheduler_tests */ = {
+			isa = PBXGroup;
+			children = (
+				157A9C2E2091121E007A39EB /* AppDelegate.h */,
+				157A9C2F2091121E007A39EB /* AppDelegate.m */,
+				15129A1A20949C190021DACB /* data */,
+				157A9C56209112F1007A39EB /* scheduler */,
+			);
+			path = scheduler_tests;
+			sourceTree = "<group>";
+		};
+		157A9C2C2091121E007A39EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				157A9C352091121E007A39EB /* MainMenu.xib */,
+				157A9C2D2091121E007A39EB /* Info.plist */,
+				157A9C312091121E007A39EB /* main.m */,
+			);
+			name = "Supporting Files";
+			path = scheduler_tests;
+			sourceTree = "<group>";
+		};
+		157A9C3F2091121E007A39EB /* scheduler_testsTests */ = {
+			isa = PBXGroup;
+			children = (
+				157A9C422091121E007A39EB /* scheduler_testsTests.m */,
+				157A9C402091121E007A39EB /* Supporting Files */,
+			);
+			path = scheduler_testsTests;
+			sourceTree = "<group>";
+		};
+		157A9C402091121E007A39EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				157A9C412091121E007A39EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		157A9C56209112F1007A39EB /* scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				15E7702E2091283F00D5B3C3 /* scheduler_tools.h */,
+				15E770302091283F00D5B3C3 /* scheduler.h */,
+				15E7702F2091283F00D5B3C3 /* scheduler.c */,
+				15E7702B2091283F00D5B3C3 /* dubins.h */,
+				15E7702A2091283F00D5B3C3 /* dubins.c */,
+				15BB7ED920912F7100DC8224 /* trajectory.h */,
+				15BB7ED820912F7100DC8224 /* trajectory.c */,
+				15E7702D2091283F00D5B3C3 /* intersection.h */,
+				15E7702C2091283F00D5B3C3 /* intersection.c */,
+				15E257FE2093399200943316 /* intersection_algorithms.h */,
+				15E257FD2093399100943316 /* intersection_algorithms.c */,
+			);
+			name = scheduler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		157A9C282091121E007A39EB /* scheduler_tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157A9C462091121E007A39EB /* Build configuration list for PBXNativeTarget "scheduler_tests" */;
+			buildPhases = (
+				157A9C252091121E007A39EB /* Sources */,
+				157A9C262091121E007A39EB /* Frameworks */,
+				157A9C272091121E007A39EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scheduler_tests;
+			productName = scheduler_tests;
+			productReference = 157A9C292091121E007A39EB /* scheduler_tests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		157A9C212091121E007A39EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bruno Vandekerkhove";
+				TargetAttributes = {
+					157A9C282091121E007A39EB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 157A9C242091121E007A39EB /* Build configuration list for PBXProject "scheduler_tests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 157A9C202091121E007A39EB;
+			productRefGroup = 157A9C2A2091121E007A39EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				157A9C282091121E007A39EB /* scheduler_tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		157A9C272091121E007A39EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157A9C372091121E007A39EB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		157A9C252091121E007A39EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E770332091283F00D5B3C3 /* scheduler.c in Sources */,
+				15E770312091283F00D5B3C3 /* dubins.c in Sources */,
+				157A9C322091121E007A39EB /* main.m in Sources */,
+				15E770322091283F00D5B3C3 /* intersection.c in Sources */,
+				15129A1D20949C220021DACB /* vector.c in Sources */,
+				15E257FF2093399200943316 /* intersection_algorithms.c in Sources */,
+				15BB7EDA20912F7100DC8224 /* trajectory.c in Sources */,
+				157A9C302091121E007A39EB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		157A9C352091121E007A39EB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157A9C362091121E007A39EB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		157A9C442091121E007A39EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		157A9C452091121E007A39EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		157A9C472091121E007A39EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/Macintosh\\ HD/Applications/Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = scheduler_tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		157A9C482091121E007A39EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/Macintosh\\ HD/Applications/Development/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = scheduler_tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		157A9C242091121E007A39EB /* Build configuration list for PBXProject "scheduler_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157A9C442091121E007A39EB /* Debug */,
+				157A9C452091121E007A39EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157A9C462091121E007A39EB /* Build configuration list for PBXNativeTarget "scheduler_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157A9C472091121E007A39EB /* Debug */,
+				157A9C482091121E007A39EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 157A9C212091121E007A39EB /* Project object */;
+}

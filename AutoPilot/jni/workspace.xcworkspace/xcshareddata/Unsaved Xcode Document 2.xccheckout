@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7B6C0F3D-73CA-408B-89FC-4291012C7C5D</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EEA646B2DA0BFC55B2C7EA06E1D39EB06872C52C</key>
+		<string>https://github.com/BrunoVandekerkhove/PenOTeamSaffier</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EEA646B2DA0BFC55B2C7EA06E1D39EB06872C52C</key>
+		<string>PenOTeamSaffier/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BrunoVandekerkhove/PenOTeamSaffier</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EEA646B2DA0BFC55B2C7EA06E1D39EB06872C52C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EEA646B2DA0BFC55B2C7EA06E1D39EB06872C52C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PenOTeamSaffier</string>
+		</dict>
+	</array>
+</dict>
+</plist>

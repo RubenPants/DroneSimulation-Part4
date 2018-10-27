@@ -1,0 +1,10 @@
+- 50 library calls should be no more than 1/100th of a ms for basic calls
+-> JNI library functions as database for Java module
+
+- JNI library calculates Dubins paths and their crossings
+
+- JNI library can also be used for scheduling
+
+- Entry point in Java = AutopilotLibrary
+
+- Testing done separately with XCode project

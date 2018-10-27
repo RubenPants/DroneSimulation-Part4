@@ -1,0 +1,11 @@
+#!/bin/bash
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR"
+rm autopilot_library.h
+cd ..
+javac src/autopilot_library/AutopilotLibrary.java
+cd src
+javah autopilot_library.AutopilotLibrary
+rm autopilot_library/AutopilotLibrary.class
+cd ..
+mv src/autopilot_library_AutopilotLibrary.h jni/autopilot_library.h

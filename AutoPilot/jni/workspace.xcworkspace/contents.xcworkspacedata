@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:autopilot_library.h">
+   </FileRef>
+   <FileRef
+      location = "container:autopilot_library.c">
+   </FileRef>
+   <FileRef
+      location = "group:general.h">
+   </FileRef>
+   <FileRef
+      location = "group:general.c">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Scheduling">
+      <FileRef
+         location = "group:scheduling/scheduler_tools.h">
+      </FileRef>
+      <FileRef
+         location = "group:scheduling/scheduler.h">
+      </FileRef>
+      <FileRef
+         location = "group:scheduling/scheduler.c">
+      </FileRef>
+      <FileRef
+         location = "group:scheduling/dubins.h">
+      </FileRef>
+      <FileRef
+         location = "group:scheduling/dubins.c">
+      </FileRef>
+      <FileRef
+         location = "group:scheduling/intersection.h">
+      </FileRef>
+      <FileRef
+         location = "group:scheduling/intersection.c">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:../../../../../../../../../../../Users/Bruno/Library/Autosave Information"
+      name = "Algorithms">
+      <FileRef
+         location = "group:../../../../Volumes/Macintosh HD/Users/Bruno/Documents/School/P&amp;O/PenOTeamSaffier/Code/AutoPilot/jni/algorithms/geom.h">
+      </FileRef>
+      <FileRef
+         location = "group:../../../../Volumes/Macintosh HD/Users/Bruno/Documents/School/P&amp;O/PenOTeamSaffier/Code/AutoPilot/jni/algorithms/convex.h">
+      </FileRef>
+      <FileRef
+         location = "group:../../../../Volumes/Macintosh HD/Users/Bruno/Documents/School/P&amp;O/PenOTeamSaffier/Code/AutoPilot/jni/algorithms/convex.c">
+      </FileRef>
+      <FileRef
+         location = "group:../../../../Volumes/Macintosh HD/Users/Bruno/Documents/School/P&amp;O/PenOTeamSaffier/Code/AutoPilot/jni/algorithms/simplify.h">
+      </FileRef>
+      <FileRef
+         location = "group:../../../../Volumes/Macintosh HD/Users/Bruno/Documents/School/P&amp;O/PenOTeamSaffier/Code/AutoPilot/jni/algorithms/simplify.c">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Vision">
+      <FileRef
+         location = "group:vision/vision.h">
+      </FileRef>
+      <FileRef
+         location = "group:vision/vision.c">
+      </FileRef>
+      <FileRef
+         location = "group:vision/color.h">
+      </FileRef>
+   </Group>
+</Workspace>
